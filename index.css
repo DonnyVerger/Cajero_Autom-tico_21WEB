@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./imagenes/Fondo.jpg);;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form input{
+    margin-bottom: 20px;
+}
+.error{
+    color: red;
+    margin-top: -20px;
+}
+.hide{
+    display: none;
+}
+#campo{
+    text-align:center;
+}
+.numerito{
+    background-color: rgb(173, 169, 169);
+    width: 100px;
+    height: 60px;
+}
+.igual{
+    background-color: orangered;
+    /* width: 210px; */
+    width: 200px;
+    height: 60px;
+}
+.inp{
+    text-align:center;
+}
+.borrar{
+    background-color: rgb(219, 173, 73);
+    width: 100px;
+    height: 60px;
+}
+.botonParaSalir{
+    background-color: rgb(231, 90, 90);
+    width: 100px;
+    height: 30px;
+}
+.elLabel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+}
+#welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    width: 100px;
+    height: 100px;
+}
